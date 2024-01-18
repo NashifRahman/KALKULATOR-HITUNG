@@ -1,0 +1,164 @@
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+
+body{
+    background-color: rgb(239, 239, 239);
+}
+
+.site-wrapper{
+    background-color: rgb(255,255,255);
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+}
+
+.header{
+    background-color: rgb(95, 90, 239);
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding: 25px 0;
+}
+
+.kecil{
+    font-size: 25px;
+    color: rgb(225, 225, 225);
+}
+
+.container-header{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+.welcome{
+    font-size: 30px;
+}
+
+.kata, .action{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    align-items: center;
+}
+
+.persegi{
+    padding: 5px 0;
+    width: 60%;
+    color: rgb(101, 95, 255);
+}
+
+/* persegi:focus, .persegi:focus:hover
+persegi:hover */
+
+.p1{
+    background-color: rgb(101, 95, 255);
+    color: white;
+}
+
+.p2:hover{
+    color: rgb(255, 69, 69);
+}
+
+.conten{
+    display:flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    align-items: center;
+}
+
+.container-luas{
+    border: 1px solid black;
+    width: 500px;
+}
+
+.header-luas{
+    background-color: rgb(95, 90, 239);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 25px 0;
+}
+
+.gambar-persegi, .soal{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    align-items: center;
+}
+
+.konten-luas p,.jawab2 p{
+    padding-left: 10px;
+    align-self: start;
+}
+
+.konten-luas{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.gambar-persegi img{
+    width: 300px;
+}
+
+.jawaban{
+    margin-top: 20px;
+    border-top: 1px solid rgb(173, 173, 173);
+    padding: 20px 0;
+}
+
+.jawaban h2{
+    font-size: 30px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.jawab2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+input[type=text]{
+    border: 1px solid black;
+    width: 500px;
+    font-size: 15px;
+    max-width: 95%;
+    padding: 3px;
+}
+
+input[type=text]::placeholder{
+    color:rgb(100, 100, 100);
+}
+
+.tombol-hitung{
+    font-size: 15px;
+    padding: 5px 10px;
+}
+
+.tombol-hitung:hover{
+    background-color: rgb(28, 21, 252);
+    color: white;
+}
+
+.footer{
+    padding: 10px;
+}
+
+@media(max-width:1200px){
+    .conten{
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+@media(max-width:720px){
+    .site-wrapper{
+        width: 100%;
+        margin: 0 auto;
+    }
+}

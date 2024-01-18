@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <script src="./js/script.js"></script>
+    <title>Kalkulator Persegi</title>
+  </head>
+  <body>
+    <div class="site-wrapper">
+      <!-- Header -->
+      <div class="header">
+        <h1>Katik <span class="kecil">Kalkulator Matematik</span></h1>
+      </div>
+      <!-- Bagian 1 -->
+      <div class="container-header">
+        <h2 class="welcome">Welcome to Katik</h2>
+        <div class="kata">
+          <p>Hai Sobat, Selamat datang di Katik :]</p>
+          <p>
+            Sebuah web apps sederhana yang berfungsi untuk menghitung luas dan
+            keliling bangun datar
+          </p>
+        </div>
+        <div class="action">
+          <button class="persegi p1">Persegi</button>
+          <button class="persegi p2">Persegi Panjang</button>
+        </div>
+      </div>
+      <div class="conten">
+        <!-- Luas Persegi -->
+        <div class="container-luas">
+          <div class="header-luas">
+            <h2 class="hitung">Luas Persegi</h2>
+          </div>
+          <div class="konten-luas">
+            <div class="gambar-persegi">
+              <img src="./img/persegi.webp" alt="kotak" srcset="" />
+            </div>
+            <p>Rumus Luas Persegi yaitu:</p>
+            <span class="soal">L= S x S</span>
+            <div>
+              <p>Dimana:</p>
+              <p>L: Luas</p>
+              <p>S: Sisi</p>
+            </div>
+            <div class="jawaban">
+              <h2>Hitung Luas Persegi</h2>
+              <div class="jawab2">
+                <input
+                  type="text"
+                  name="jawab-luas"
+                  placeholder="Jawab Di Sini"
+                />
+                <p class="hasil-luas"></p>
+                <button class="tombol-hitung p1">Hitung</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Keliling Persegi -->
+        <div class="container-luas keliling">
+          <div class="header-luas">
+            <h2 class="hitung">Keliling Persegi</h2>
+          </div>
+          <div class="konten-luas">
+            <div class="gambar-persegi">
+              <img src="./img/persegi.webp" alt="" srcset="" />
+            </div>
+            <p>Rumus keliling Persegi yaitu:</p>
+            <span class="soal">K = 4 x S</span>
+            <div>
+              <p>Dimana:</p>
+              <p>K: Keliling</p>
+              <p>S: Sisi</p>
+            </div>
+            <div class="jawaban">
+              <h2>Hitung keliling Persegi</h2>
+              <div class="jawab2">
+                <input
+                  type="text"
+                  name="jawab-keliling"
+                  placeholder="Jawab Di Sini"
+                />
+                <p class="hasil-keliling"></p>
+                <button class="tombol-hitung p1">Hitung</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer"></div>
+    </div>
+  </body>
+</html>
